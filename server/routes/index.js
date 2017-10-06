@@ -7,7 +7,7 @@ var iplocation = require('iplocation')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  iplocation('174.138.26.249', function (error, response) {
+  iplocation('175.158.49.108', function (error, response) {
     res.send(response)
   })
 });
